@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802641690099",
+    "firebase_url": "https://cakencafe-477b8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cakencafe-477b8",
+    "storage_bucket": "cakencafe-477b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802641690099:android:b3a8c18f885173e80b6686",
+        "android_client_info": {
+          "package_name": "com.example.cakesncafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802641690099-eh08ub98omg62j6hi5cc5ubv98td6mfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cakesncafe",
+            "certificate_hash": "1b99a8fc0b25da311465dc3d815a415a16b82da3"
+          }
+        },
+        {
+          "client_id": "802641690099-bnm7fm3g72146icfpb07airah40gpmua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEiT6DaebhgI_BFkvt95Zs15lrwiVlv0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802641690099-bnm7fm3g72146icfpb07airah40gpmua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

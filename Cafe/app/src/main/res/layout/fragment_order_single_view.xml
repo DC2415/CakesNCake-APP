@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_item_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_alignParentTop="true" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_below="@id/cart_item_view"
+        android:id="@+id/order_total_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Total:200"/>
+    <TextView
+        android:layout_below="@id/order_total_text"
+        android:id="@+id/order_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Order Status: PLACED"/>
+    <TextView
+        android:layout_below="@id/order_status_text"
+        android:id="@+id/order_mobile_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Mobile No : 1234567890"/>
+    <TextView
+        android:layout_below="@id/order_mobile_text"
+        android:id="@+id/order_address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Address : 1234567890"/>
+    <LinearLayout
+        android:layout_below="@id/order_address_text"
+        android:id="@+id/orderStatusView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Order is in Pending state. Please Take an action"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/accept_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/editTextTextPostalAddress"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:text="ACCEPT" />
+        <Button
+            android:id="@+id/reject_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/editTextTextPostalAddress"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Red"
+            android:text="REJECT" />
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
